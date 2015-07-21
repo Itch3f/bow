@@ -1,0 +1,7 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\Pipeline_Pattern.bat
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\Push.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\Push.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\obj\x86\Release\Push.csprojResolveAssemblyReference.cache
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\obj\x86\Release\Push.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\obj\x86\Release\Push.pdb

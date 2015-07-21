@@ -1,0 +1,6 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\Sub.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\Sub.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Sub\obj\x86\Release\Sub.csprojResolveAssemblyReference.cache
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Sub\obj\x86\Release\Sub.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Sub\obj\x86\Release\Sub.pdb

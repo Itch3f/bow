@@ -1,0 +1,10 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\Req.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\Req.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\clrzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\CommandLine.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\clrzmq.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\clrzmq.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\bin\Debug\CommandLine.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\obj\x86\Debug\Req.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Req\obj\x86\Debug\Req.pdb

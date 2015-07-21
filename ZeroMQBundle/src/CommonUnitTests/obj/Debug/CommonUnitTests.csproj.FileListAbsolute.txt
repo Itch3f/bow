@@ -1,0 +1,9 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\obj\Debug\CommonUnitTests.csprojResolveAssemblyReference.cache
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\CommonUnitTests.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\CommonUnitTests.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\CommonFunctions.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\nunit.framework.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\CommonFunctions.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\bin\Debug\nunit.framework.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\obj\Debug\CommonUnitTests.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonUnitTests\obj\Debug\CommonUnitTests.pdb

@@ -1,0 +1,10 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\PullPushWorker.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\PullPushWorker.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\clrzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\CommandLine.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\clrzmq.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\clrzmq.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\bin\Debug\CommandLine.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\obj\x86\Debug\PullPushWorker.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\obj\x86\Debug\PullPushWorker.pdb

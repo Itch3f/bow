@@ -1,0 +1,13 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\ReqRep_Pattern_2.bat
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\ReqRep_Pattern_1.bat
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\Rep.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\Rep.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\clrzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\CommandLine.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\clrzmq.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\clrzmq.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\CommandLine.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\obj\x86\Debug\Rep.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\obj\x86\Debug\Rep.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\CommonFunctions.dll

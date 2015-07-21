@@ -1,0 +1,11 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\Pipeline_Pattern.bat
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\Push.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\Push.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\clrzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\CommandLine.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\clrzmq.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\clrzmq.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\bin\Debug\CommandLine.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\obj\x86\Debug\Push.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Push\obj\x86\Debug\Push.pdb

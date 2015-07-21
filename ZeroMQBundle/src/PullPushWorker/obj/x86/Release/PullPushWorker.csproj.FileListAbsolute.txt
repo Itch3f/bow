@@ -1,0 +1,6 @@
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\libzmq.dll
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\PullPushWorker.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\bin\PullPushWorker.pdb
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\obj\x86\Release\PullPushWorker.csprojResolveAssemblyReference.cache
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\obj\x86\Release\PullPushWorker.exe
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\PullPushWorker\obj\x86\Release\PullPushWorker.pdb
