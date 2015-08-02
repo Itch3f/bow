@@ -13,3 +13,4 @@ D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\obj\x86\Debug\Rep.pdb
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\AppDomainToolkit.dll
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\AppDomainToolkit.pdb
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\AppDomainToolkit.xml
+D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\Rep\bin\Debug\Topshelf.dll

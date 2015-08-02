@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CommonFunctions
 {
-    public class CommandFactory : MarshalByRefObject 
+    public class CommandFactory : MarshalByRefObject
     {
         private CommandFactory() { }
 
@@ -16,9 +16,9 @@ namespace CommonFunctions
 
             Console.WriteLine("Executing app domain - " + currentAppdomainName);
 
-            if (rcvdMsg.Equals("getservices"))
+            if (rcvdMsg.Equals("getservices") || rcvdMsg.StartsWith("startservice") || rcvdMsg.StartsWith("stopservice"))
             {
-                return AppDomain.CurrentDomain.CreateInstanceAndUnwrap("CommonFunctions", "GetServices");
+                return AppDomain.CurrentDomain.CreateInstanceAndUnwrap("CommonFunctions", "CommonFunctions.Commands.GetServices");
                 //return new GetServices();  
             }
             else

@@ -15,7 +15,7 @@ namespace Rep
     using CommandLine;
     using CommandLine.Text;
 
-    class Options : CommandLineOptionsBase
+    public class Options : CommandLineOptionsBase
     {
         [OptionList("b", "bindEndPoints", Required = true, Separator = ';', HelpText = "List of end points to bind seperated by ';'")]
         public IList<string> bindEndPoints { get; set; }
@@ -25,18 +25,18 @@ namespace Rep
 
         [Option("d", "delay", Required = false, HelpText = "Delay between messages (ms). Default = 0")]
         public int delay { get; set; }
-     
+
         [HelpOption(HelpText = "Dispaly this help screen.")]
         public string GetUsage()
         {
             var help = new HelpText
             {
-                Heading = "Rep Server",                
+                Heading = "Rep Server",
                 AdditionalNewLineAfterOption = true,
                 AddDashesToOption = true
             };
-            this.HandleParsingErrorsInHelp(help);          
-            help.AddPreOptionsLine("Usage: Rep.exe -b <bind endpoint list> -r <reply msg pattern> [-d <time delay>]");           
+            this.HandleParsingErrorsInHelp(help);
+            help.AddPreOptionsLine("Usage: Rep.exe -b <bind endpoint list> -r <reply msg pattern> [-d <time delay>]");
             help.AddOptions(this);
 
             return help;
@@ -54,9 +54,9 @@ namespace Rep
                 }
             }
         }
-     
+
         public Options()
-        {            
+        {
         }
     }
 }
