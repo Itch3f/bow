@@ -2,4 +2,3 @@ D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonFunctions\bin\Debug\Com
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonFunctions\bin\Debug\CommonFunctions.pdb
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonFunctions\obj\Debug\CommonFunctions.dll
 D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonFunctions\obj\Debug\CommonFunctions.pdb
-D:\Dev\ZeroMq\ZeroMQBundle_Source\ZeroMQBundle\src\CommonFunctions\obj\Debug\CommonFunctions.csprojResolveAssemblyReference.cache

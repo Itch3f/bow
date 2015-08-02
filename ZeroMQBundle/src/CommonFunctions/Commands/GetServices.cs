@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CommonFunctions.Commands
 {
-    public class GetServices : ICommand
+    public class GetServices : MarshalByRefObject, ICommand
     {
         public string Execute(string command)
         {
