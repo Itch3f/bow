@@ -1,3 +1,5 @@
+go get github.com/360EntSecGroup-Skylar/excelize
+
 package main
 
 import (
@@ -6,6 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"fmt"
 	"regexp"
+	"strings"
+	"github.com/360EntSecGroup-Skylar/excelize"
 )
 
 func main() {
@@ -34,23 +38,57 @@ func getinstancedetails() {
 		fmt.Println("Error", err)
 	} else {
 
+		xlsx := excelize.NewFile()
+		// Create a new sheet.
+		index := xlsx.NewSheet("Ec2InstancesDetails")
+
+		xlsx.SetCellValue("Ec2InstancesDetails", "A1", "Environment")
+		xlsx.SetCellValue("Ec2InstancesDetails", "B1", "Instance Name")
+		xlsx.SetCellValue("Ec2InstancesDetails", "C1", "Instance Type")
 		//fmt.Println("Success", result)
+
+		counter := 0
+
 		for _, e := range result.Reservations {
-			for instanceno, instance := range e.Instances {
-				{
-					var nt string
-					for _, t := range instance.Tags {
-						if *t.Key == "Name" {
-							nt = *t.Value
-							break
-						}
+			for _, instance := range e.Instances {
+
+				fmt.Println("Value of a[%d] ", counter)
+				var nt string
+				for _, t := range instance.Tags {
+					if *t.Key == "Name" {
+						nt = *t.Value
+						break
 					}
-
-					re := regexp.MustCompile("d.? | tst.?")					fmt.Printf("%q\n", re.FindAllStringIndex(nt))
-
-					fmt.Println( instanceno , *instance.InstanceId , nt, *instance.InstanceType)
 				}
+
+				re := regexp.MustCompile("(dev|tst|pre|pro).?")
+
+				//fmt.Printf("%q\n", re.FindString(nt))
+				env := re.FindString(nt)
+
+				var environmentName string
+
+				if len(strings.TrimSpace(env)) > 0 {
+					environmentName = strings.ToUpper(env)
+				}else {
+					environmentName = strings.ToUpper("no env")
+				}
+
+					//fmt.Println("no env",  nt, *instance.InstanceType)
+					xlsx.SetCellValue("Ec2InstancesDetails", fmt.Sprint("A" ,counter + 2), environmentName)
+					xlsx.SetCellValue("Ec2InstancesDetails", fmt.Sprint("B" ,counter + 2), nt)
+					xlsx.SetCellValue("Ec2InstancesDetails", fmt.Sprint("C" ,counter + 2), *instance.InstanceType)
+					// Set active sheet of the workbook.
+					xlsx.SetActiveSheet(index)
+
+				counter ++
 			}
+		}
+
+		// Save xlsx file by the given path.
+		err := xlsx.SaveAs("./Workbook.xlsx")
+		if err != nil {
+			fmt.Println(err)
 		}
 	}
 
