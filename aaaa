@@ -1,0 +1,57 @@
+package main
+
+import (
+	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/ec2"
+	"fmt"
+	"regexp"
+)
+
+func main() {
+	getinstancedetails()
+}
+
+func check(e error) {
+
+	if e != nil {
+		panic(e)
+	}
+}
+
+func getinstancedetails() {
+
+	//name := "*test*"     // search string (NameTag)
+
+	session := session.Must(session.NewSession(&aws.Config{
+		Region: aws.String("eu-west-1"),
+	}))
+	svc := ec2.New(session)
+	// Only grab instances that are running or just started
+
+	result, err := svc.DescribeInstances(nil)
+	if err != nil {
+		fmt.Println("Error", err)
+	} else {
+
+		//fmt.Println("Success", result)
+		for _, e := range result.Reservations {
+			for instanceno, instance := range e.Instances {
+				{
+					var nt string
+					for _, t := range instance.Tags {
+						if *t.Key == "Name" {
+							nt = *t.Value
+							break
+						}
+					}
+
+					re := regexp.MustCompile("d.? | tst.?")					fmt.Printf("%q\n", re.FindAllStringIndex(nt))
+
+					fmt.Println( instanceno , *instance.InstanceId , nt, *instance.InstanceType)
+				}
+			}
+		}
+	}
+
+}
